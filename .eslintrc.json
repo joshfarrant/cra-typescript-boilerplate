@@ -7,9 +7,13 @@
     "@typescript-eslint",
     "prettier"
   ],
+  "env": {
+    "browser": true
+  },
   "parser": "@typescript-eslint/parser",
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": 2,
+    "import/extensions": 0,
     "import/no-unresolved": 0,
     "react/jsx-filename-extension": [
       1,
